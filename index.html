@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello World Page with React</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React App</title>
 </head>
 <body>
-  <!-- React 컴포넌트가 렌더링될 컨테이너 -->
-  <div id="root"></div>
+    <div id="root"></div>
 
-  <!-- React와 ReactDOM 라이브러리 로드 -->
-  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-  <!-- JavaScript 파일을 포함하여 React 컴포넌트 로드 -->
-  <script type="text/babel" src="app.js"></script>
+    <script src="App.js"></script>
+    <script>
+        // JavaScript로 "Hello, World!"를 #root에 출력
+        document.getElementById('root').textContent = 'Hello, World!';
+    </script>
 </body>
 </html>
